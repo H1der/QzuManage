@@ -1,0 +1,20 @@
+body #login-box{
+    margin: 200px auto;
+    height: 250px;
+    width: 400px;
+
+}
+body #login-text{
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+body #login-con{
+    padding: 30px 50px 0 50px;
+    text-align: center;
+}
+body #login-btn{
+    padding-left: 125px;
+;
+}
