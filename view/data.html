@@ -24,6 +24,7 @@
         <th>联系方式</th>
         <th>工作情况</th>
         <th>部门编号</th>
+        <th>操作</th>
     </tr>
     </thead>
     <tbody>
@@ -36,6 +37,13 @@
         <td><?php echo $v['empPhone'];?></td>
         <td><?php echo $v['working'];?></td>
         <td><?php echo $v['depNo'];?></td>
+        <td><div class="layui-btn-group">
+            <button class="layui-btn layui-btn-sm">
+                <i class="layui-icon">&#xe642;</i>
+            </button>
+            <button class="layui-btn layui-btn-sm">
+                <i class="layui-icon">&#xe640;</i>
+            </button></div></td>
     </tr>
     <?php } ?>
     </tbody>
