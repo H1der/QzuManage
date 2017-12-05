@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../css/layui.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <title>人事管理系统登录界面</title>
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body class="layui-bg-cyan">
 <div id="login-box" class="layui-anim layui-anim-upbit layui-bg-gray">
     <h3 id="login-text" class="layui-bg-green">人事管理系统登录平台</h3>
-    <form class="layui-form layui-form-pane" action="">
+    <form class="layui-form layui-form-pane" action="#" method="post">
         <div id="login-con" class="layui-anim layui-anim-scaleSpring">
             <div class="layui-form-item" pane>
                 <label class="layui-form-label">用户名</label>
@@ -21,14 +21,16 @@
             <div class="layui-form-item" pane>
                 <label class="layui-form-label">密码</label>
                 <div class="layui-input-inline">
-                    <input type="text" name="username" lay-verify="required" placeholder="请输入" autocomplete="off"
+                    <input type="password" name="password" lay-verify="required" placeholder="请输入" autocomplete="off"
                            class="layui-input">
                 </div>
             </div>
         </div>
         <div id="login-btn" class="layui-anim layui-anim-scaleSpring">
-            <button class="layui-btn layui-btn-normal">重置</button>
-            <button class="layui-btn">登录</button>
+            <!--<button class="layui-btn layui-btn-normal">重置</button>-->
+            <!--<button class="layui-btn">登录</button>-->
+            <input class="layui-btn layui-btn-normal" type="submit" value="重置">
+            <input class="layui-btn" type="submit" value="登陆">
         </div>
     </form>
 </div>
