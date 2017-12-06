@@ -2,10 +2,9 @@
 /**
  * Created by PhpStorm.
  * User: Hider
- * Date: 2017/12/2
- * Time: 16:42
+ * Date: 2017/12/6
+ * Time: 22:34
  */
 
 require ("./lib/init.php");
-
-include(ROOT."/view/index.html");
+include (ROOT."/view/add.html");

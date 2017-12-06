@@ -5,7 +5,6 @@
  * Date: 2017/11/28
  * Time: 21:07
  */
-include ('./lib/init.php');
 $sql = 'select * from employee';
 $cats = mGetAll($sql);
 
