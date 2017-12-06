@@ -14,7 +14,7 @@
         <legend>员工信息新增</legend>
     </fieldset>
 
-    <form class="layui-form" action="">
+    <form class="layui-form" action="" method="post">
         <div class="layui-form-item">
             <label class="layui-form-label">员工编号:</label>
             <div class="layui-input-block">
@@ -24,20 +24,20 @@
         <div class="layui-form-item">
             <div class="layui-inline">
                 <label class="layui-form-label">员工姓名：</label>
-                <div class="layui-input-inline">
-                    <input type="number" name="empName" autocomplete="off" class="layui-input">
+                <div class="layui-input-block">
+                    <input type="text" name="empName" autocomplete="off" class="layui-input">
                 </div>
             </div>
             <div class="layui-inline">
                 <label class="layui-form-label">员工年龄：</label>
                 <div class="layui-input-block">
-                    <input type="text" name="empAge"autocomplete="off" class="layui-input" onclick="layui.laydate({elem: this})">
+                    <input type="text" name="empAge"autocomplete="off" class="layui-input">
                 </div>
             </div>
             <div class="layui-inline">
                 <label class="layui-form-label">所在部门：</label>
                 <div class="layui-input-block">
-                    <input type="text" name="depName"autocomplete="off" class="layui-input" onclick="layui.laydate({elem: this})">
+                    <input type="text" name="depName"autocomplete="off" class="layui-input">
                 </div>
             </div>
         </div>
@@ -51,13 +51,13 @@
         <div class="layui-form-item">
             <label class="layui-form-label">家庭住址：</label>
             <div class="layui-input-block">
-                <input type="text" name="empAddress" lay-verify="identity" placeholder="" autocomplete="off" class="layui-input">
+                <input type="text" name="empAddress" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">联系电话：</label>
             <div class="layui-input-block">
-                <input type="text" name="empPhone" lay-verify="identity" placeholder="" autocomplete="off" class="layui-input">
+                <input type="text" name="empPhone"placeholder="" autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
@@ -66,10 +66,10 @@
                 <div class="layui-input-block">
                     <select name="engpro">
                         <option value=""></option>
-                        <option value="0">大专</option>
-                        <option value="1" selected="">本科</option>
-                        <option value="2">硕士</option>
-                        <option value="3">博士及以上</option>
+                        <option value="大专">大专</option>
+                        <option value="本科" selected="">本科</option>
+                        <option value="硕士">硕士</option>
+                        <option value="博士及以上">博士及以上</option>
                     </select>
                 </div>
             </div>
@@ -78,18 +78,18 @@
                 <div class="layui-input-block">
                     <select name="marsta">
                         <option value=""></option>
-                        <option value="0" selected="">未婚</option>
-                        <option value="1">已婚</option>
+                        <option value="未婚" selected="">未婚</option>
+                        <option value="已婚">已婚</option>
                     </select>
                 </div>
             </div>
             <div class="layui-inline">
                 <label class="layui-form-label">在职情况：</label>
                 <div class="layui-input-block">
-                    <select name="marsta">
+                    <select name="working">
                         <option value=""></option>
-                        <option value="0" selected="">在职</option>
-                        <option value="1">离职</option>
+                        <option value="在职" selected="">在职</option>
+                        <option value="离职">离职</option>
                     </select>
                 </div>
             </div>
@@ -97,8 +97,8 @@
 
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <a class="layui-btn">立即提交</a>
-                <!--<button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>-->
+                <!--<a class="layui-btn">立即提交</a>-->
+                <button class="layui-btn" type="submit">立即提交</button>
                 <button type="reset" class="layui-btn layui-btn-normal">重置</button>
                 <a class="layui-btn layui-btn-primary">返回</a>
             </div>

@@ -7,4 +7,6 @@
  */
 
 require ("./lib/init.php");
+$post = $_POST;
+print_r($post);
 include (ROOT."/view/add.html");
