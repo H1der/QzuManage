@@ -209,3 +209,776 @@ DELETE FROM `employee` WHERE  empNo= 104
 2017/12/07 20:44:03
 select * from employee
 
+--------------------------------
+2017/12/07 20:52:08
+select * from employee
+
+--------------------------------
+2017/12/07 20:52:40
+select * from employee
+
+--------------------------------
+2017/12/07 21:02:13
+select * from employee where empNo=
+
+
+--------------------------------
+2017/12/07 21:02:21
+select * from employee where empNo=
+
+
+--------------------------------
+2017/12/07 21:02:54
+select * from employee where empNo=
+
+
+--------------------------------
+2017/12/07 21:03:45
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:05:07
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:05:07
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:06:01
+select * from employee where empNo=
+
+
+--------------------------------
+2017/12/07 21:06:18
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:07:00
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:07:20
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:09:14
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:10:22
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:10:33
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:12:45
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:13:14
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:13:26
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:15:27
+select * from employee
+
+--------------------------------
+2017/12/07 21:15:29
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:15:33
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:15:49
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:15:53
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 21:16:32
+select * from employee
+
+--------------------------------
+2017/12/07 21:16:57
+select * from employee
+
+--------------------------------
+2017/12/07 21:17:31
+select * from user where name ='admin'
+
+--------------------------------
+2017/12/07 21:17:31
+select * from employee
+
+--------------------------------
+2017/12/07 21:17:35
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:17:39
+select * from employee
+
+--------------------------------
+2017/12/07 21:21:45
+select * from employee
+
+--------------------------------
+2017/12/07 21:21:47
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:24:20
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:24:21
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:24:22
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:24:23
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:24:23
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:10
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:12
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:23
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:34
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:25:39
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:48
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:49
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:50
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:56
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:25:57
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:26:27
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:26:32
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:26:33
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:26:34
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:26:34
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:26:34
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:28:26
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:36:33
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:38:53
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:42:12
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:46:06
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:53:06
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:53:11
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:53:14
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 21:53:18
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:54:28
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:54:41
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:54:59
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:55:03
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:55:30
+select * from employee
+
+--------------------------------
+2017/12/07 21:55:31
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:55:34
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:55:58
+select * from employee
+
+--------------------------------
+2017/12/07 21:55:59
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 21:56:03
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 21:56:13
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:04:42
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:05:37
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:06:06
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:06:15
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:07:59
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:08:03
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:08:08
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:08:30
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:08:35
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:10:04
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:10:07
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:10:15
+select * from employee
+
+--------------------------------
+2017/12/07 22:12:05
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:17:41
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:34:11
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:35:16
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:35:16
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=
+
+
+--------------------------------
+2017/12/07 22:35:19
+select * from employee
+
+--------------------------------
+2017/12/07 22:35:21
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:35:21
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=
+
+
+--------------------------------
+2017/12/07 22:35:35
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:36:27
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:37:05
+select * from employee where empNo=103
+
+--------------------------------
+2017/12/07 22:37:42
+select * from employee
+
+--------------------------------
+2017/12/07 22:37:44
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:37:44
+update employee set where empNo=
+
+
+--------------------------------
+2017/12/07 22:38:02
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:38:02
+update employee set empNo='102',empName='李四',empSex='女',empAge='24',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职',depName='营销部'where empNo=
+
+
+--------------------------------
+2017/12/07 22:38:20
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:38:20
+update employee set empNo='102',empName='李四',empSex='女',empAge='24',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职',depName='营销部'where empNo=
+
+
+--------------------------------
+2017/12/07 22:39:19
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:39:19
+update employee set empNo='102',empName='李四',empSex='女',empAge='24',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职',depName='营销部'where empNo=102
+
+--------------------------------
+2017/12/07 22:39:24
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:39:24
+update employee set empNo='102',empName='李四',empSex='女',empAge='24',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职',depName='营销部'where empNo=102
+
+--------------------------------
+2017/12/07 22:39:27
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:28
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:30
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:31
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:31
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:32
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:32
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:33
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:33
+select * from employee
+
+--------------------------------
+2017/12/07 22:39:33
+select * from employee
+
+--------------------------------
+2017/12/07 22:40:04
+select * from employee
+
+--------------------------------
+2017/12/07 22:40:05
+select * from employee
+
+--------------------------------
+2017/12/07 22:40:08
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:40:08
+update employee set empNo='102',empName='李四',empSex='女',empAge='24',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职',depName='营销部'where empNo=102
+
+--------------------------------
+2017/12/07 22:40:11
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:40:11
+update employee set empNo='102',empName='李四',empSex='女',empAge='24',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职',depName='营销部'where empNo=102
+
+--------------------------------
+2017/12/07 22:40:16
+select * from employee
+
+--------------------------------
+2017/12/07 22:40:18
+select * from employee
+
+--------------------------------
+2017/12/07 22:40:19
+select * from employee
+
+--------------------------------
+2017/12/07 22:41:22
+select * from employee
+
+--------------------------------
+2017/12/07 22:41:23
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:41:39
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:41:41
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:41:47
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:43:00
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:43:00
+update employee set empNo='101',empName='张三',empAge='21',depName='技术部',empsex='男',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='已婚',working='在职'where empNo=101
+
+--------------------------------
+2017/12/07 22:43:06
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:43:06
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=101
+
+
+--------------------------------
+2017/12/07 22:43:09
+select * from employee where empNo=
+
+
+--------------------------------
+2017/12/07 22:43:09
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=
+
+
+--------------------------------
+2017/12/07 22:43:15
+select * from employee
+
+--------------------------------
+2017/12/07 22:43:17
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:43:17
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=102
+
+
+--------------------------------
+2017/12/07 22:43:42
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:43:42
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=102
+
+
+--------------------------------
+2017/12/07 22:44:11
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:44:11
+update employee set empNo='102',empName='李四',empAge='24',depName='营销部',empsex='女',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职'where empNo=102
+
+--------------------------------
+2017/12/07 22:47:40
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:47:40
+update employee set empNo='102',empName='李四',empAge='24',depName='营销部',empsex='女',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='未婚',working='离职'where empNo=102
+
+--------------------------------
+2017/12/07 22:47:47
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:47:47
+update employee set empNo='102',empName='李四',empAge='24',depName='营销部',empsex='女',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='',working='离职'where empNo=102
+
+--------------------------------
+2017/12/07 22:48:27
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:48:27
+update employee set empNo='102',empName='李四',empAge='24',depName='营销部',empsex='女',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职'where empNo=102
+
+--------------------------------
+2017/12/07 22:49:51
+select * from employee
+
+--------------------------------
+2017/12/07 22:50:02
+select * from employee
+
+--------------------------------
+2017/12/07 22:50:05
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:50:05
+update employee set where empNo=101
+
+
+--------------------------------
+2017/12/07 22:51:05
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:51:05
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=102
+
+
+--------------------------------
+2017/12/07 22:51:13
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:51:13
+update employee set empNo='102',empName='李四',empAge='24',depName='营销部',empsex='女',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='已婚',working='离职'where empNo=102
+
+--------------------------------
+2017/12/07 22:52:22
+select * from employee
+
+--------------------------------
+2017/12/07 22:52:24
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:52:24
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=101
+
+
+--------------------------------
+2017/12/07 22:55:06
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:55:06
+update employee set empNo='',empName='',empAge='',depName='',empsex='',empAddress='',empPhone='',engpro='',marsta='',working=''where empNo=101
+
+
+--------------------------------
+2017/12/07 22:55:52
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:55:52
+update employee set where empNo=101
+
+
+--------------------------------
+2017/12/07 22:56:41
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:56:41
+update employee set where empNo=101
+
+
+--------------------------------
+2017/12/07 22:57:20
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:57:20
+update employee set 0='Array'where empNo=101
+
+
+--------------------------------
+2017/12/07 22:57:27
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:57:27
+update employee set empNo='101',empName='张三',empSex='男',empAge='21',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='已婚',working='在职',depName='技术部'where empNo=101
+
+--------------------------------
+2017/12/07 22:57:31
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:57:31
+update employee set empNo='101',empName='张三',empSex='男',empAge='21',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='已婚',working='在职',depName='技术部'where empNo=101
+
+--------------------------------
+2017/12/07 22:57:32
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:57:32
+update employee set empNo='101',empName='张三',empSex='男',empAge='21',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='已婚',working='在职',depName='技术部'where empNo=101
+
+--------------------------------
+2017/12/07 22:57:39
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:57:39
+update employee set empNo='101',empName='张三',empSex='男',empAge='21',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='已婚',working='在职',depName='技术部'where empNo=101
+
+--------------------------------
+2017/12/07 22:58:01
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 22:58:01
+update employee set empNo='101',empName='张三',empSex='男',empAge='21',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='已婚',working='在职',depName='技术部'where empNo=101
+
+--------------------------------
+2017/12/07 22:59:47
+select * from employee
+
+--------------------------------
+2017/12/07 22:59:49
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:59:52
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 22:59:52
+update employee set empNo='102',empName='李四',empAge='24',depName='营销部',empsex='女',empAddress='海南省海口市文坛路2号',empPhone='123456',engpro='大专',marsta='未婚',working='离职'where empNo=102
+
+--------------------------------
+2017/12/07 23:00:32
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 23:00:42
+select * from employee where empNo=102
+
+--------------------------------
+2017/12/07 23:00:49
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 23:00:52
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/07 23:00:52
+update employee set empNo='101',empName='张三',empAge='21',depName='技术部',empsex='男',empAddress='海南省海口市秀英路',empPhone='12345678',engpro='本科',marsta='未婚',working='在职'where empNo=101
+
+--------------------------------
+2017/12/07 23:00:52
+select * from employee
+

@@ -13,51 +13,52 @@
     <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
         <legend>员工信息编辑</legend>
     </fieldset>
-
     <form class="layui-form" action="" method="post">
+        <?php foreach($rs as $v){ ?>
         <div class="layui-form-item">
             <label class="layui-form-label">员工编号:</label>
             <div class="layui-input-block">
-                <input type="text" name="empNo"  autocomplete="off" placeholder="请输入标题" class="layui-input">
+                <input type="text" name="empNo"  autocomplete="off" class="layui-input" value="<?php echo $v['empNo']; ?>">
             </div>
         </div>
         <div class="layui-form-item">
             <div class="layui-inline">
                 <label class="layui-form-label">员工姓名：</label>
                 <div class="layui-input-block">
-                    <input type="text" name="empName" autocomplete="off" class="layui-input">
+                    <input type="text" name="empName" autocomplete="off" class="layui-input" value="<?php echo $v['empName'];?>">
                 </div>
             </div>
             <div class="layui-inline">
                 <label class="layui-form-label">员工年龄：</label>
                 <div class="layui-input-block">
-                    <input type="text" name="empAge"autocomplete="off" class="layui-input">
+                    <input type="text" name="empAge"autocomplete="off" class="layui-input" value="<?php echo $v['empAge'];?>">
                 </div>
             </div>
             <div class="layui-inline">
                 <label class="layui-form-label">所在部门：</label>
                 <div class="layui-input-block">
-                    <input type="text" name="depName"autocomplete="off" class="layui-input">
+                    <input type="text" name="depName"autocomplete="off" class="layui-input" value="<?php echo $v['depName'];?>">
                 </div>
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">性别：</label>
             <div class="layui-input-block">
-                <input type="radio" name="empsex" value="男" title="男" checked="">
-                <input type="radio" name="empsex" value="女" title="女">
+                <?php if($v['empSex'] =="男"){?>
+                <?php echo $sexman;}else{ ?>
+                <?php echo $sexwoman;}?>
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">家庭住址：</label>
             <div class="layui-input-block">
-                <input type="text" name="empAddress" class="layui-input">
+                <input type="text" name="empAddress" class="layui-input" value="<?php echo $v['empAddress'];?>">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">联系电话：</label>
             <div class="layui-input-block">
-                <input type="text" name="empPhone"placeholder="" autocomplete="off" class="layui-input">
+                <input type="text" name="empPhone"placeholder="" autocomplete="off" class="layui-input" value="<?php echo $v['empPhone'];?>">
             </div>
         </div>
         <div class="layui-form-item">
@@ -65,11 +66,11 @@
                 <label class="layui-form-label">员工学历：</label>
                 <div class="layui-input-block">
                     <select name="engpro">
-                        <option value=""></option>
-                        <option value="大专">大专</option>
-                        <option value="本科" selected="">本科</option>
-                        <option value="硕士">硕士</option>
-                        <option value="博士及以上">博士及以上</option>
+                        <?php if($v['engpro']=="大专"){ ?>
+                        <?php echo $engprodz;}else if($v['engpro']=="本科"){ ?>
+                        <?php echo $engprobk;}else if($v['engpro']=="硕士"){ ?>
+                        <?php echo $engpros;}else{echo $engprobs;};?>
+
                     </select>
                 </div>
             </div>
@@ -77,9 +78,9 @@
                 <label class="layui-form-label">婚姻情况：</label>
                 <div class="layui-input-block">
                     <select name="marsta">
-                        <option value=""></option>
-                        <option value="未婚" selected="">未婚</option>
-                        <option value="已婚">已婚</option>
+                        <?php if($v['marsta'] =="已婚"){?>
+                        <?php echo $marstay;}else{ ?>
+                        <?php echo $marstan;}?>
                     </select>
                 </div>
             </div>
@@ -87,9 +88,9 @@
                 <label class="layui-form-label">在职情况：</label>
                 <div class="layui-input-block">
                     <select name="working">
-                        <option value=""></option>
-                        <option value="在职" selected="">在职</option>
-                        <option value="离职">离职</option>
+                        <?php if($v['working'] =="在职"){?>
+                        <?php echo $workingy;}else{ ?>
+                        <?php echo $workingn;}?>
                     </select>
                 </div>
             </div>
@@ -103,6 +104,7 @@
                 <a class="layui-btn layui-btn-primary">返回</a>
             </div>
         </div>
+        <?php } ?>
     </form>
 </div>
 <script type="text/javascript" src="../layui.js"></script>

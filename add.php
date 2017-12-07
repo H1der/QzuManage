@@ -23,4 +23,5 @@ $employee['marsta'] = trim($_POST['marsta']);
 $employee['working'] = trim($_POST['working']);
 
 mExec('employee',$employee);
+    header('Location:index.php');
 }

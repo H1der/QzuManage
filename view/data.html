@@ -39,26 +39,29 @@
         <th>操作</th>
     </tr>
     </thead>
+    <form class="layui-form" action="" method="post">
     <tbody>
     <?php foreach($cats as $v){ ?>
     <tr>
-        <td><?php echo $v['empNo'];?></td>
-        <td><?php echo $v['empName'];?></td>
-        <td><?php echo $v['empSex'];?></td>
-        <td><?php echo $v['empAge'];?></td>
-        <td><?php echo $v['empAddress'];?></td>
-        <td><?php echo $v['empPhone'];?></td>
-        <td><?php echo $v['engpro'];?></td>
-        <td><?php echo $v['marsta'];?></td>
-        <td><?php echo $v['working'];?></td>
-        <td><?php echo $v['depName'];?></td>
+        <td name="empNo"><?php echo $v['empNo'];?></td>
+        <td name="empName"><?php echo $v['empName'];?></td>
+        <td name="empSex"><?php echo $v['empSex'];?></td>
+        <td name="empAge"><?php echo $v['empAge'];?></td>
+        <td name="empAddress"><?php echo $v['empAddress'];?></td>
+        <td name="empPhone"><?php echo $v['empPhone'];?></td>
+        <td name="engpro"><?php echo $v['engpro'];?></td>
+        <td name="marsta"><?php echo $v['marsta'];?></td>
+        <td name="working"><?php echo $v['working'];?></td>
+        <td name="depName"><?php echo $v['depName'];?></td>
         <td>
-            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+            <!--href="edit.php?empNo=<?php echo $v['empNo']; ?>-->
+            <a class="layui-btn layui-btn-xs" lay-event="edit" href="edit.php?empNo=<?php echo $v['empNo']; ?>">编辑</a>
             <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del" href="datadel.php?empNo=<?php echo $v['empNo']; ?>">删除</a>
         </td>
     </tr>
     <?php } ?>
     </tbody>
+    </form>
 </table>
 <div id="test1"></div>
 <script src="layui.all.js"></script>
