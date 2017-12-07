@@ -107,7 +107,7 @@ function mGetOne($sql)
  * @param array $data 要插入或更改的数据,键代表列明,值为新值
  * @param string $table 带插入的表名
  * @param string $act 插入还是更新 默认为insert
- * @param string $where 繁殖update语句更改忘记加where改了所有的值
+ * @param string $where 防止update语句更改忘记加where改了所有的值
  * @return bool insert或者update插入成功或者失败
  */
 function mExec($table, $data, $act = 'insert', $where = '0')

@@ -1,0 +1,211 @@
+--------------------------------
+2017/12/07 19:56:22
+select * from employee
+
+--------------------------------
+2017/12/07 20:04:15
+select * from employee
+
+--------------------------------
+2017/12/07 20:04:46
+insert into employee (empNo,empName,empAge,depName,sex,empAddress,empPhone,engpro,marsta,working) values ('1004','赵六','24','技术部','男','海南省三亚市','1234556','本科','未婚','在职')
+
+
+--------------------------------
+2017/12/07 20:06:48
+insert into employee (empNo,empName,empAge,depName,sex,empAddress,empPhone,engpro,marsta,working) values ('1004','赵六','23','技术部','','海南省三亚市','124567','本科','未婚','在职')
+
+
+--------------------------------
+2017/12/07 20:07:52
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('1004','赵六','24','技术部','男','海南省三亚市','124123','本科','未婚','在职')
+
+--------------------------------
+2017/12/07 20:07:57
+select * from employee
+
+--------------------------------
+2017/12/07 20:12:54
+select * from employee
+
+--------------------------------
+2017/12/07 20:13:01
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:20
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:21
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:22
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:23
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:24
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:27
+select * from employee
+
+--------------------------------
+2017/12/07 20:14:28
+select * from employee
+
+--------------------------------
+2017/12/07 20:21:06
+select * from employee
+
+--------------------------------
+2017/12/07 20:22:00
+select * from employee
+
+--------------------------------
+2017/12/07 20:24:40
+select * from employee
+
+--------------------------------
+2017/12/07 20:24:41
+select * from employee
+
+--------------------------------
+2017/12/07 20:25:00
+select * from employee
+
+--------------------------------
+2017/12/07 20:25:03
+select * from employee
+
+--------------------------------
+2017/12/07 20:25:05
+select * from employee
+
+--------------------------------
+2017/12/07 20:25:08
+select * from employee
+
+--------------------------------
+2017/12/07 20:36:10
+select * from employee
+
+--------------------------------
+2017/12/07 20:36:48
+select * from employee
+
+--------------------------------
+2017/12/07 20:37:47
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:36
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:37
+DELETE FROM `employee` WHERE 1004
+
+--------------------------------
+2017/12/07 20:38:40
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:42
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:43
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:43
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:44
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:44
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:44
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:45
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:45
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:45
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:46
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:46
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:46
+select * from employee
+
+--------------------------------
+2017/12/07 20:38:46
+select * from employee
+
+--------------------------------
+2017/12/07 20:40:33
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('101','张三','21','技术部','男','海南省海口市秀英路','12345678','本科','未婚','在职')
+
+--------------------------------
+2017/12/07 20:41:20
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('102','李四','24','营销部','女','海南省海口市文坛路2号','123456','大专','已婚','离职')
+
+--------------------------------
+2017/12/07 20:41:41
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('103','王五','25','技术部','女','海南省海口市文坛路2号','124556546','本科','已婚','离职')
+
+--------------------------------
+2017/12/07 20:42:07
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('104','赵六','24','技术部','女','海南省海口市文坛路2号','12345653','本科','已婚','在职')
+
+--------------------------------
+2017/12/07 20:42:50
+select * from employee
+
+--------------------------------
+2017/12/07 20:42:52
+select * from employee
+
+--------------------------------
+2017/12/07 20:42:59
+DELETE FROM `employee` WHERE  empnp =104
+
+
+--------------------------------
+2017/12/07 20:43:59
+select * from employee
+
+--------------------------------
+2017/12/07 20:44:00
+DELETE FROM `employee` WHERE  empNo= 104
+
+--------------------------------
+2017/12/07 20:44:03
+select * from employee
+

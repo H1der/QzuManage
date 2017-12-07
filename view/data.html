@@ -54,7 +54,7 @@
         <td><?php echo $v['depName'];?></td>
         <td>
             <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
-            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del" href="datadel.php?empNo=<?php echo $v['empNo']; ?>">删除</a>
         </td>
     </tr>
     <?php } ?>
@@ -68,7 +68,7 @@
 
         laypage.render({
             elem: 'test1'
-            ,count:20
+            ,count:10
         });
     });
 </script>
