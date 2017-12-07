@@ -10,12 +10,14 @@
 </head>
 <body>
 <div class="layui-form-item">
+    <form method="post">
     <div class="layui-input-inline">
-        <input type="text" name="username" lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input">
+        <input type="text" name="search" lay-verify="required" placeholder="请输入职工号查询" autocomplete="off" class="layui-input">
     </div>
-    <a class="layui-btn">查询</a>
+    <button type="submit" class="layui-btn">查询</button>
     <!--<button class="layui-btn">查询</button>-->
     <a href="add.php" class="layui-btn"><i class="layui-icon">&#xe61f;</i>新增员工</a>
+    </form>
     <!--<button class="layui-btn"><i class="layui-icon">&#xe61f;</i>新增员工</button>-->
 </div>
 <table class="layui-table">

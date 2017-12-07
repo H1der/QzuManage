@@ -10,6 +10,6 @@ require ("./lib/init.php");
 
 $sql = 'DELETE FROM `employee` WHERE  empNo= '.$empNo;
 $rs = mQuery($sql);
-
+header('Location:index.php');
 
 
