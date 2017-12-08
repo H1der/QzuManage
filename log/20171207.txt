@@ -1318,3 +1318,20 @@ select * from employee
 2017/12/07 23:36:45
 select * from employee
 
+--------------------------------
+2017/12/07 23:37:18
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('','','','','男','','','本科','未婚','在职')
+
+
+--------------------------------
+2017/12/07 23:37:18
+select * from employee
+
+--------------------------------
+2017/12/07 23:37:40
+select * from user where name ='admin'
+
+--------------------------------
+2017/12/07 23:37:41
+select * from employee
+
