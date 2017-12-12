@@ -6,9 +6,9 @@
  * Time: 23:57
  */
 return array(
-    'host'=>'localhost',
-    'user'=>'root',
-    'password'=>'',
-    'db'=>'Qzu',
-    'salt' => 'L^&%TDJ}',
+  'host'=>'localhost',
+  'user'=>'root',
+  'password'=>'',
+  'db'=>'Qzu',
+  'salt' => 'L^&%TDJ}',
 );

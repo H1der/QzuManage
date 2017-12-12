@@ -10,12 +10,12 @@
 //$cats = mGetRow($sql);
 //print_r($cats);
 //exit();
-if(empty($_POST)){
+if(empty($_get)){
     $sql = 'select * from employee';
     $cats = mGetAll($sql);
 include (ROOT.'./view/data.html');
 }else{
-    $empNo = $_POST['search'];
+    $empNo = $_get['search'];
     $sql = 'select * from employee where empNo='.$empNo;
     mGetAll($sql);
     $cats = mGetAll($sql);

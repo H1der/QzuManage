@@ -1,0 +1,68 @@
+--------------------------------
+2017/12/10 21:50:36
+select * from user where name ='admin'
+
+--------------------------------
+2017/12/10 21:50:36
+select * from employee
+
+--------------------------------
+2017/12/10 21:50:42
+select * from employee
+
+--------------------------------
+2017/12/10 21:55:43
+select * from employee where empNo=101
+
+--------------------------------
+2017/12/10 22:25:43
+select * from user where name ='admin'
+
+--------------------------------
+2017/12/10 22:25:43
+select * from employee
+
+--------------------------------
+2017/12/10 22:26:26
+insert into employee (empNo,empName,empAge,depName,empsex,empAddress,empPhone,engpro,marsta,working) values ('105','赵小明','24','技术部','男','海南省三亚市吉阳区','88280928','本科','未婚','在职')
+
+--------------------------------
+2017/12/10 22:26:26
+select * from employee
+
+--------------------------------
+2017/12/10 22:26:31
+select * from employee where empNo=105
+
+--------------------------------
+2017/12/10 22:26:38
+select * from employee where empNo=105
+
+--------------------------------
+2017/12/10 22:26:38
+update employee set empNo='105',empName='赵小明',empAge='24',depName='技术部',empsex='男',empAddress='海南省三亚市吉阳区',empPhone='88280928',engpro='硕士',marsta='已婚',working='在职'where empNo=105
+
+--------------------------------
+2017/12/10 22:26:38
+select * from employee
+
+--------------------------------
+2017/12/10 22:26:47
+select * from employee where empNo=105
+
+--------------------------------
+2017/12/10 22:26:47
+select * from employee where empNo=105
+
+--------------------------------
+2017/12/10 22:26:51
+select * from employee
+
+--------------------------------
+2017/12/10 22:26:55
+DELETE FROM `employee` WHERE  empNo= 105
+
+--------------------------------
+2017/12/10 22:26:55
+select * from employee
+
